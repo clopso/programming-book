@@ -1,9 +1,11 @@
 # Table of contents
 
+* [README](README.md)
+
 ## ✍ coding
 
-* [Loops](README.md)
-* [Bitwise](coding/bitwise.md)
+* [Loops](<README (1).md>)
+* [Bit Manipulation](coding/bitwise.md)
 
 ## 👾 firmware
 

@@ -1,4 +1,18 @@
-# Programming Book
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
+# README
 
 This repository is used to keep all my coding studies
 
@@ -6,6 +20,6 @@ This repository is used to keep all my coding studies
 
 ## Links
 
-- [Summary](https://github.com/clopso/programming-book/blob/main/SUMMARY.md)
-- [GitBook](https://caioclopso.gitbook.io/programming-study/)
-- [GitHub](https://github.com/clopso/programming-book)
+* [GitBook](https://caioclopso.gitbook.io/programming-study/) (Documentation)
+* [GitHub](https://github.com/clopso/programming-book) (Source code)
+* [Summary](SUMMARY.md) (Table of contents)
