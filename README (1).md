@@ -1,4 +1,5 @@
 ---
+description: Loops are used to repeat a block of code
 layout:
   title:
     visible: true
@@ -9,12 +10,10 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # Loops
-
-> Loops are used to repeat a block of code
 
 ### Reverse for loop
 

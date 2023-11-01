@@ -1,4 +1,7 @@
 ---
+description: >-
+  Bit manipulation is the act of algorithmically manipulating bits or other data
+  smaller than a byte.
 layout:
   title:
     visible: true
@@ -9,12 +12,10 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # Bit Manipulation
-
-> Bit manipulation is the act of algorithmically manipulating bits or other pieces of data shorter than a byte.
 
 ### Bitwise Operators
 

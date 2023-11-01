@@ -2,26 +2,26 @@
 
 * [README](README.md)
 
-## ✍ coding
+## ✍ Coding
 
-* [Loops](<README (1).md>)
 * [Bit Manipulation](coding/bitwise.md)
+* [Loops](<README (1).md>)
 
-## 👾 firmware
+## 👾 Firmware
 
 * [BLE](firmware/ble.md)
 * [NFC](firmware/nfc.md)
 * [RTOS](firmware/rtos.md)
 * [Peripherals](firmware/peripherals.md)
 
-## 🔎 search
+## 🔎 Search
 
 * [Linear Search](search/linear-search.md)
 * [Binary Search](search/binary-search.md)
 * [Breadth-First Search (BFS)](search/breadth-first-search-bfs.md)
 * [Depth First Search (DFS)](search/depth-first-search-dfs.md)
 
-## 🤹 sort
+## 🤹 Sort
 
 * [Sorting](sort/sorting.md)
 * [Insertion Sort](sort/insertion-sort.md)
@@ -43,7 +43,7 @@
 * [Heap / Priority Queue](leetcode/heap-priority-queue.md)
 * [Backtracking](leetcode/backtracking.md)
 
-## 🧮 math
+## 🧮 Math
 
 * [Boolean Algebra](math/boolean-algebra.md)
 * [Logarithms](math/logarithms.md)

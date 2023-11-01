@@ -1,4 +1,5 @@
 ---
+description: This repository is used to keep all my coding studies
 layout:
   title:
     visible: true
@@ -9,12 +10,10 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # README
-
-This repository is used to keep all my coding studies
 
 > **Nota para quem não fala inglês:** Um dos principais requisitos exigidos na área é um conhecimento em inglês suficientemente bom para falar e escrever. Por este motivo o repositório e tudo que for escrito será em inglês para que eu mesmo pratique a escrita dia após dia.
 
