@@ -8,9 +8,9 @@ layout:
   tableOfContents:
     visible: true
   outline:
-    visible: true
+    visible: false
   pagination:
-    visible: true
+    visible: false
 ---
 
 # README
@@ -20,5 +20,5 @@ layout:
 ## Links
 
 * [GitBook](https://caioclopso.gitbook.io/programming-study/) (Documentation)
-* [GitHub](https://github.com/clopso/programming-book) (Source code)
 * [Summary](SUMMARY.md) (Table of contents)
+* [GitHub](https://github.com/clopso/programming-book) (Source code)

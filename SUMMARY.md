@@ -5,11 +5,18 @@
 ## ✍ Coding
 
 * [Bit Manipulation](coding/bitwise.md)
-* [Loops](<README (1).md>)
+* [Loops](coding/loops.md)
 
 ## 👾 Firmware
 
-* [BLE](firmware/ble.md)
+* [BLE](firmware/ble/README.md)
+  * [GAP](firmware/ble/gap.md)
+  * [ATT & GATT](firmware/ble/att-and-gatt.md)
+  * [PHY](firmware/ble/phy.md)
+  * [Advertising](firmware/ble/advertising/README.md)
+    * [Advertising Process](firmware/ble/advertising/advertising-process.md)
+    * [Advertising Types](firmware/ble/advertising/advertising-types.md)
+    * [Advertisement Packet](firmware/ble/advertising/advertisement-packet.md)
 * [NFC](firmware/nfc.md)
 * [RTOS](firmware/rtos.md)
 * [Peripherals](firmware/peripherals.md)

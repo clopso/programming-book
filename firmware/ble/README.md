@@ -46,7 +46,7 @@ A key advantage of Bluetooth Low Energy is its low cost when compared to other l
 
 ### Bluetooth LE protocol stack
 
-<figure><img src="../.gitbook/assets/BLE_STACK.png" alt=""><figcaption><p>The image depicts the protocol stack architecture, showing which layers make up the Bluetooth LE host and which make up the Bluetooth LE controller.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BLE_STACK.png" alt=""><figcaption><p>The image depicts the protocol stack architecture, showing which layers make up the Bluetooth LE host and which make up the Bluetooth LE controller.</p></figcaption></figure>
 
 At the top, you have the application. This is the layer that the user interacts with, through APIs, to make use of the Bluetooth LE protocol.
 
