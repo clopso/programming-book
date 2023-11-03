@@ -2,17 +2,6 @@
 description: >-
   Bit manipulation is the act of algorithmically manipulating bits or other data
   smaller than a byte.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Bit Manipulation
