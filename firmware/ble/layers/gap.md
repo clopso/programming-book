@@ -56,7 +56,7 @@ This is done by using the **advertisement packets** to broadcast the data to any
 
 A peripheral (broadcaster) advertises the data, and the central (observer) will **scan and read** the data from the advertisement packets.
 
-<figure><img src="../../.gitbook/assets/blefund_less1_broadcast_topology-2 (1).png" alt=""><figcaption><p>An example of a broadcast topology</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/blefund_less1_broadcast_topology-2 (1).png" alt=""><figcaption><p>An example of a broadcast topology</p></figcaption></figure>
 
 There is **no limit** to how many devices one can broadcast. Anyone in range of the advertisement packets can receive the information.
 
@@ -68,7 +68,7 @@ A connected network topology **establishes a connection** before data transfer o
 Although the Bluetooth LE specification technically does **not limit** the number of connections possible, there are bandwidth and hardware limitations that come with using small embedded devices
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/blefund_less1_connection_topology-1.png" alt=""><figcaption><p>An example of a connected topology</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/blefund_less1_connection_topology-1.png" alt=""><figcaption><p>An example of a connected topology</p></figcaption></figure>
 
 The advantage of a connected topology is the **increased throughput** that comes with establishing a direct link before communication.
 
@@ -80,10 +80,10 @@ The communication is **bi-directional**, meaning that the central and peripheral
 
 A single device can also operate in **multiple different roles** simultaneously. For instance, the same device can act as a peripheral in one setting and a central in another.
 
-<figure><img src="../../.gitbook/assets/blefund_less1_multirole_topology-1.png" alt=""><figcaption><p>Example of a multi-role topology</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/blefund_less1_multirole_topology-1.png" alt=""><figcaption><p>Example of a multi-role topology</p></figcaption></figure>
 
 This multi-role functionality is often used in systems where a device, is receiving sensor data from multiple sensors, **but also** wants to forward this data to mobile phones.
 
 In this case, the device can act as a central and connect to multiple sensors (peripherals), **and can also** act as a peripheral and transmit sensor data to one or more smartphones (centrals).
 
-<figure><img src="../../.gitbook/assets/blefund_less1_multirole_topology_example-1.png" alt=""><figcaption><p>Example use-case for multi-role topology</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/blefund_less1_multirole_topology_example-1.png" alt=""><figcaption><p>Example use-case for multi-role topology</p></figcaption></figure>

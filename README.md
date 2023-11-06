@@ -1,5 +1,4 @@
 ---
-description: This repository is used to keep all my coding studies
 layout:
   title:
     visible: true

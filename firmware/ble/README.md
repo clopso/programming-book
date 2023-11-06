@@ -49,20 +49,3 @@ A key advantage of Bluetooth Low Energy is its **low cost** when compared to oth
 <figure><img src="../../.gitbook/assets/BLE_STACK.png" alt=""><figcaption><p>The image depicts the protocol stack architecture, showing which layers make up the Bluetooth LE host and which make up the Bluetooth LE controller.</p></figcaption></figure>
 
 At the top, you have the **application**. This is the layer that the user interacts with, through APIs, to make use of the Bluetooth LE protocol.
-
-### Host
-
-The Bluetooth LE host consists of the following layers:
-
-* **Logical Link Control & Adaptation Protocol (L2CAP)**: provides data encapsulation services to the upper layers.
-* **Security Manager Protocol (SMP)**: defines and provides methods for secure communication.
-* **Attribute Protocol (ATT)**: allows a device to expose certain pieces of data to another device.
-* **Generic Attribute Profile (GATT)**: defines the necessary sub-procedures for using the ATT layer.
-* **Generic Access Profile (GAP)**: interfaces directly with the application to handle device discovery and connection-related services.
-
-### Controller
-
-The Bluetooth LE controller is comprised of the following layers:
-
-* **Physical Layer (PHY)**: determines how the actual data is modulated onto the radio waves, and how it is transmitted and received.
-* **Link Layer (LL)**: manages the state of the radio, defined as one of the following – standby, advertising, scanning, initiating, connection.

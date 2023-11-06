@@ -31,7 +31,7 @@ The Generic Attribute Profile (GATT) layer sits **directly** on top of the ATT l
 
 Two attributes together form what’s called a _**characteristic**_. All characteristics are enclosed in what’s called a _**service**_. Services usually contain multiple characteristics.
 
-<figure><img src="../../.gitbook/assets/blefund_less1_heart_rate_profile-1-1.png" alt=""><figcaption><p>Example of the Heart Rate profile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/blefund_less1_heart_rate_profile-1-1.png" alt=""><figcaption><p>Example of the Heart Rate profile</p></figcaption></figure>
 
 Before a client starts interacting with a server, the client is **not aware** of the nature of the attributes stored on that server. Therefore, the client first performs what’s called Service Discovery where it inquires from the server about the attributes.
 
