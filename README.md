@@ -20,4 +20,5 @@ layout:
 
 * [GitBook](https://caioclopso.gitbook.io/programming-study/) (Documentation)
 * [Summary](SUMMARY.md) (Table of contents)
+* [References](references.md) (Source of information)
 * [GitHub](https://github.com/clopso/programming-book) (Source code)

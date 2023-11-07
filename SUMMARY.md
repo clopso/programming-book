@@ -52,7 +52,13 @@
 
 ## 🧑🏫 LeetCode
 
-* [Arrays & Hashing](leetcode/arrays-and-hashing.md)
+* [Arrays & Hashing](leetcode/arrays-and-hashing/README.md)
+  * [Arrays](leetcode/arrays-and-hashing/arrays/README.md)
+    * [Mutator Methods](leetcode/arrays-and-hashing/arrays/mutator-methods.md)
+    * [Accessor Methods](leetcode/arrays-and-hashing/arrays/accessor-methods.md)
+    * [Iteration Methods](leetcode/arrays-and-hashing/arrays/iteration-methods.md)
+    * [Other Methods](leetcode/arrays-and-hashing/arrays/other-methods.md)
+  * [Hash Tables](leetcode/arrays-and-hashing/hash-tables.md)
 * [Two Pointers](leetcode/two-pointers.md)
 * [Sliding Window](leetcode/sliding-window.md)
 * [Stack](leetcode/stack.md)
@@ -69,3 +75,7 @@
 * [Logarithms](math/logarithms.md)
 * [Set Theory](math/set-theory.md)
 * [Complexity Theory](math/complexity-theory.md)
+
+***
+
+* [📖 References](references.md)

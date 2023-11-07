@@ -24,35 +24,60 @@ if num1 ^ num2:
     print("Unequal")
 else:
     print("Equal")
+
+# A = 0011 1100
+# B = 0000 1101
+# ^ = 0011 0001
 ```
 
 #### Find Odd or Even Using Bitwise
 
 ```python
-if(num&1==1):  
-    print("Odd")    
-else:  
+if(num&1==1):
+    print("Odd")
+else:
     print("Even")
+
+# Odd
+#  A  = 0001
+# A&1 = 1
+
+# Even
+#  B  = 1110
+# B&1 = 0
 ```
 
 #### Swap Two Numbers Using Bitwise
 
 ```python
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
+A = A ^ B; # A now contains the XOR of the original values of A and B
+B = A ^ B; # B now contains the original value of A
+A = A ^ B; # A now contains the original value of B
 ```
 
 #### Enable Nth Bit of a Number
 
 ```python
-num |= 1 << n-1
+num |= (1 << n-1)
+
+# "(1 << n-1)":
+# shift the number 1 to the left by n-1 bits
+# creating a new number with only the nth bit set to 1.
+
+# "num |= (1 << n-1)":
+# performs a bitwise OR operation between the original
+# value of "num" and the number created in step 1.
+
+# This sets the nth bit of "num" to 1 if not already set.
 ```
 
 #### Check if the Nth Bit is Set or Unset
 
 ```python
 temp = num >> (n - 1)
+# shifts the bits of "num" to the right by n-1 positions
+# moving the nth bit to the least significant position. 
+
 if temp == 1:
     print("ON")
 else:
@@ -62,12 +87,15 @@ else:
 #### Disable the Nth Bit of a Number
 
 ```python
-num |= 1 << n-1
-num ^= 1 << n-1
+# Set the nth bit of "num" to 1 using the bitwise OR operator.
+num |= (1 << n-1)
+# toggles the state of the nth bit of "num" using the bitwise XOR operator.
+num ^= (1 << n-1)
 ```
 
 #### Toggle the Nth Bit of a Number
 
 ```python
-num ^= 1 << n-1
+# toggles the state of the nth bit of "num" using the bitwise XOR operator.
+num ^= (1 << n-1)
 ```
