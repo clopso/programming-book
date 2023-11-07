@@ -52,7 +52,7 @@
 
 ## 🧑🏫 LeetCode
 
-* [Arrays & Hashing](leetcode/arrays-and-hashing/README.md)
+* [Arrays & Hashing](leetcode/arrays-and-hashing.md)
   * [Arrays](leetcode/arrays-and-hashing/arrays/README.md)
     * [Mutator Methods](leetcode/arrays-and-hashing/arrays/mutator-methods.md)
     * [Accessor Methods](leetcode/arrays-and-hashing/arrays/accessor-methods.md)
