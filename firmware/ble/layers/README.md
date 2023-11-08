@@ -4,7 +4,7 @@ description: Introducing Bluetooth LE and its stack layers.
 
 # Layers
 
-The Bluetooth Low Energy (BLE) protocol stack is divided into **three** main components or subsystems: the application layer, the host layer, and the controller layer.
+The Bluetooth Low Energy (BLE) protocol stack is divided into **three main components** or subsystems: the application layer, the host layer, and the controller layer.
 
 It is responsible for **managing** the state of the LE radio, advertising, scanning, and creating and overseeing links.
 

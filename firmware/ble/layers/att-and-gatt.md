@@ -4,7 +4,7 @@ description: Data representation and exchange
 
 # ATT & GATT
 
-After establishing a connection, there is a need for bidirectional data exchange. This **requires** specific data structures and protocols tailored for these purposes.
+After establishing a connection, there is a need for **bidirectional data exchange**. This requires specific data structures and protocols tailored for these purposes.
 
 The Attribute protocol (ATT) layer, and the Generic Attribute protocol (GATT) layer right above it, define how data is **represented and exchanged** between Bluetooth LE devices.
 

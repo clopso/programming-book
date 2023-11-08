@@ -19,7 +19,7 @@ layout:
 
 ### What is Bluetooth Low Energy?
 
-Bluetooth Low Energy (BLE) is a wireless communication technology for short-range communication. It is similar to Wi-Fi in the sense that it allows devices to communicate with each other, but it is meant for situations where battery life is preferred over high data transfer speeds.
+Bluetooth Low Energy (BLE) is a wireless communication technology for **short-range communication**. It is similar to Wi-Fi in the sense that it allows devices to communicate with each other, but it is meant for situations where battery life is preferred over high data transfer speeds.
 
 ### Bluetooth LE features
 
