@@ -53,6 +53,6 @@ This is an address that **changes periodically** and is used to hide the deviceâ
   * The pre-shared key is the **Identity Resolving Key** (IRK) and is used both to generate and resolve the random address.
   * The random address is used by the peer to be able to resolve the **actual address** of the Bluetooth LE device, which is still either the public or the random static address.
   * The IRK allows the peer to **translate** the random private address into the deviceâ€™s real Bluetooth LE address.
-* **Non-resolvable Random Private Address**
+* **Non-resolvable Random Private Address (NRPA)**
   * It's only intended as a way to **prevent tracking**.
   * This type of address is **not** commonly used.

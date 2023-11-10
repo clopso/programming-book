@@ -20,7 +20,17 @@ for (int i = n; i > 0; --i) {
 
 ```c
 int i = n;
-while(i--){
+while(i--) {
     // use i
+}
+```
+
+#### Verify all colons of a MAC address
+
+```c
+for (size_t i = 2; i < len; i += 3) {
+	if (str[i] != ':') {
+		return error;
+	}
 }
 ```

@@ -99,3 +99,10 @@ num ^= (1 << n-1)
 # toggles the state of the nth bit of "num" using the bitwise XOR operator.
 num ^= (1 << n-1)
 ```
+
+#### Flip a boolean value
+
+```python
+# flip a boolean value
+num ^= 1
+```
