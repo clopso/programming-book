@@ -31,7 +31,9 @@
     * [Legacy Pairing vs LE Secure Connections](firmware/ble/communication-security/legacy-pairing-vs-le-secure-connections.md)
     * [Security Models](firmware/ble/communication-security/security-models.md)
 * [NFC](firmware/nfc.md)
-* [RTOS](firmware/rtos.md)
+* [RTOS](firmware/rtos/README.md)
+  * [FreeRTOS](firmware/rtos/freertos.md)
+  * [Zephyr](firmware/rtos/zephyr.md)
 * [Peripherals](firmware/peripherals.md)
 
 ## 🔎 Search

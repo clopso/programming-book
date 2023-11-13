@@ -51,7 +51,7 @@ Below are a few **commonly** used advertising data types:
 * **Manufacturer-Specific Data:** This is a popular type that enables companies to define their own custom advertising data, as in the case of iBeacon.
 * **Flags**: 1-bit variables that can flag a certain property or operational mode of that device.
 
-### Flags
+## Flags
 
 The advertisement flags are **one-bit flags** encapsulated in one byte, meaning that there are up to 8 flags that can be set. We will take a look at some of the most commonly used flags:
 

@@ -16,7 +16,7 @@ Furthermore, private addresses **can either be** resolvable or non-resolvable.
 The public address assigned to a device is drawn out of the same IEEE address pool as MAC addresses (e.g. for ethernet, Wi-Fi), and therefore it is also commonly referred to as a Bluetooth MAC address.
 {% endhint %}
 
-### Public Address
+## Public Address
 
 A public address is a **fixed address** that is programmed into the device at the manufacturer.
 
@@ -24,7 +24,7 @@ It must be **registered** with the IEEE registration authority, and it’s globa
 
 There is a **fee** associated with obtaining this type of address.
 
-### Random Address
+## Random Address
 
 A random address is much **more commonly used**, as it does not require registration with the IEEE and can be manually configured by the user.
 
@@ -32,7 +32,7 @@ It's **either** programmed within the device or created during runtime.
 
 **You can either** have a static or a private address.
 
-#### Random Static Address
+### Random Static Address
 
 A random static address can be allocated and then **fixed** throughout the lifetime of the device.
 
@@ -40,7 +40,7 @@ It can be altered at bootup, but **not** during runtime.
 
 This is a low-cost alternative to a public address because you **don’t need** to register it.
 
-#### Random Private Address
+### Random Private Address
 
 A private address can be used in **addition** to the public or random static address when a device wishes to protect its privacy.
 

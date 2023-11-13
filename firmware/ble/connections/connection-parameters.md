@@ -16,7 +16,7 @@ The radio mode (1M, 2M, or coded PHY) is set to 1M by **default** for backward c
 
 The data length and MTU (Maximum Transfer Unit) are **also set** for backward compatibility.
 
-### Connection Interval
+## Connection Interval
 
 In a connection, an agreement is reached on the connection interval that indicates **how often** devices will communicate with each other.
 
@@ -24,13 +24,13 @@ When they are done communicating, they will turn off the radio, set a timer, and
 
 The implementation of this is handled by the Bluetooth LE stack, but it is up to **your application** to decide how often you want the devices to communicate by setting the connection interval.
 
-### Supervision Timeout
+## Supervision Timeout
 
 When two devices are connected, they agree on a parameter that determines **how long** it should take since the last packet was successfully received until the devices consider the connection lost.
 
 If one of the devices is **unexpectedly switched off**, runs out of battery, or if the devices are out of radio range, then this is the amount of time it takes between successfully receiving the last packet before the connection is considered lost.
 
-### Peripheral Latency
+## Peripheral Latency
 
 Peripheral latency allows the peripheral to **skip waking up** for a certain number of connection events if it doesn’t have any data to send.
 
@@ -42,7 +42,7 @@ This is particularly useful in HID (Human Interface Devices) applications, such 
 
 Using the peripheral latency option, we can maintain **low latency** but reduce power consumption by remaining idle for several connection intervals.
 
-### PHY Radio Mode
+## PHY Radio Mode
 
 Normal Bluetooth LE transmits at 1Mbps. However, in Bluetooth 5.0, both high-speed and long-range radio modes were introduced. This gives us **two more options**.
 
@@ -54,7 +54,7 @@ This does however come with the cost of a slightly **shorter range**.
 
 The other option is to use Coded PHY which results in a significant **increase in range**, but at the cost of lower throughput.
 
-### Data Length and MTU
+## Data Length and MTU
 
 The data length and MTU (Maximum Transfer Unit) are **two different parameters**, but they often go hand in hand.
 
@@ -80,7 +80,7 @@ Below is a figure showing what it looks like to send a message with 40 bytes bef
 
 <figure><img src="../../../.gitbook/assets/image-11.png" alt=""><figcaption><p>Left: 40-byte payload without data length extension.<br>Right: 40-byte payload with data length extension.<br>Source: <a href="https://devzone.nordicsemi.com/power/w/opp/2/online-power-profiler-for-bluetooth-le">Online Power Profiler tool</a></p></figcaption></figure>
 
-### Updating the Connection Parameters
+## Updating the Connection Parameters
 
 The connection interval, supervision timeout, and peripheral latency are **dictated by the central**, but the peripheral can request changes.
 

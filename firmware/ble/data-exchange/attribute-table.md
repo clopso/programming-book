@@ -14,7 +14,7 @@ This attribute table depicts a **custom service** called “my\_lbs”. The my\_
 * LED Characteristic
 * MySensor Characteristic
 
-### Service Declaration
+## Service Declaration
 
 The first line in the table declares this service with a **service declaration** attribute.
 
@@ -26,7 +26,7 @@ Lastly, the value field of the service declaration attribute holds the **UUID of
 
 <figure><img src="../../../.gitbook/assets/blefund_less4_att_table_service.png" alt=""><figcaption><p>Service Declaration</p></figcaption></figure>
 
-### Button Characteristic
+## Button Characteristic
 
 The Button characteristic is defined first. The Button characteristic is first declared with the Button **Characteristic Declaration**.
 
@@ -44,13 +44,13 @@ In this specific table, we can see that the **Indicate bit-field** has been enab
 
 <figure><img src="../../../.gitbook/assets/Updated_blefund_less4_att_table_button.png" alt=""><figcaption><p>Button characteristic definition</p></figcaption></figure>
 
-### LED Characteristic
+## LED Characteristic
 
 After this comes the LED characteristic, which is very similar to the button characteristic. Notice that this characteristic only **supports the** **Write operation**, and therefore does not have a CCCD. It has only 2 characteristics, declaration and value.
 
 <figure><img src="../../../.gitbook/assets/blefund_less4_att_table_button_led.png" alt=""><figcaption><p>LED characteristic definition</p></figcaption></figure>
 
-### MySensor Characteristic
+## MySensor Characteristic
 
 Lastly, the definition of the MySensor characteristic, which only supports the **Notify operation**. Notice how the bitfield for the Notify operation has been enabled in the CCCD of the MySensor characteristic.
 

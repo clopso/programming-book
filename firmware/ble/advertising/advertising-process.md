@@ -14,7 +14,7 @@ Therefore, the **tradeoff** here is power consumption vs. how fast the advertise
 
 To avoid packet collisions, a **random delay** of 0-10 ms is added before each advertisement packet. This ensures that devices with the same advertising interval do not end up with advertisement packet collisions all the time.
 
-### Advertisement Channels
+## Advertisement Channels
 
 Bluetooth LE devices communicate through **40** different frequency channels.
 
@@ -29,7 +29,7 @@ Advertising packets are sent on all **three primary** advertising channels, chan
 
 Channels 37, 38, and 39, despite being consecutive numbers, are not actually neighboring channels. The separation between the three channels serves to **avoid adjacent-band interference**. Additionally, these three specific channels suffer the least from noise from other technologies using the ISM (_industrial, scientific, and medical)_ band, such as Wi-Fi.
 
-### Scan Interval and Scan Window
+## Scan Interval and Scan Window
 
 Similar to an advertising interval, a scanning interval refers to **how often** a scanner will scan for advertisement packets.
 
@@ -50,7 +50,7 @@ Short advertising intervals and scan intervals lead to **shorter discovery times
 
 A good practice is to set a relatively short scan interval with a longer advertising interval so that the scanning process is **more likely** to receive the advertising packets.
 
-### Scan Request and Response
+## Scan Request and Response
 
 When a peripheral is advertising, a central can **also choose** to send a scan request to the peripheral, asking for additional information that is not included in the advertisement packets.
 

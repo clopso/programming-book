@@ -9,14 +9,14 @@ The Bluetooth LE protocol supports **two different** communication styles: conne
 * **Connection-oriented communication**: When there is a dedicated connection between devices, forming bi-directional communication.&#x20;
 * **Broadcast communication**: When devices communicate without establishing a connection first, by broadcasting data packets to all devices within range.
 
-### Device Roles
+## Device Roles
 
 The GAP layer **defines device roles** for nodes in a Bluetooth LE network. These roles determine important aspects such as how the device advertises its presence, or how it scans and connects to other nodes.
 
 * **Advertising:** The process of transmitting advertising packets, either just to broadcast data or to be discovered by another device.
 * **Scanning:** The process of listening for advertising packets.
 
-#### Central and peripheral
+### Central and peripheral
 
 The device that **scans** for advertisements is the central.
 
@@ -35,7 +35,7 @@ Since the central acts as the host, it is responsible for typical host-role duti
 
 IoT devices that are resource-constrained and require **low power** are usually the peripheral devices in a Bluetooth LE connection. In contrast, the central device is something like a mobile phone, which has more power.
 
-#### Broadcaster and observer
+### Broadcaster and observer
 
 Sometimes devices only wish to broadcast information **without** being in a connection with another device.
 
@@ -44,11 +44,11 @@ A very good example of broadcasters is **beacon devices**. They only transmit in
 * **Broadcaster:** A special kind of peripheral that broadcasts advertisement packets without accepting any connection requests.
 * **Observer:** A special kind of central that listens to advertising packets without initiating a connection.
 
-### Network Topologies
+## Network Topologies
 
 How the device roles are used in the **different** network topologies possible with Bluetooth LE.
 
-#### Broadcast topology
+### Broadcast topology
 
 In a broadcast topology, data transfer happens **without** the devices establishing a connection.
 
@@ -60,7 +60,7 @@ A peripheral (broadcaster) advertises the data, and the central (observer) will 
 
 There is **no limit** to how many devices one can broadcast. Anyone in range of the advertisement packets can receive the information.
 
-#### Connected Topology
+### Connected Topology
 
 A connected network topology **establishes a connection** before data transfer occurs.
 
@@ -76,7 +76,7 @@ The communication is **bi-directional**, meaning that the central and peripheral
 
 > With the introduction of Periodic Advertising with Responses (PAwR) in Bluetooth 5.4, bidirectional communication in connectionless mode is possible.
 
-#### Multi-role Topology
+### Multi-role Topology
 
 A single device can also operate in **multiple different roles** simultaneously. For instance, the same device can act as a peripheral in one setting and a central in another.
 

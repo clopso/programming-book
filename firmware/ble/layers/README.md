@@ -8,7 +8,7 @@ The Bluetooth Low Energy (BLE) protocol stack is divided into **three main compo
 
 It is responsible for **managing** the state of the LE radio, advertising, scanning, and creating and overseeing links.
 
-### Host
+## Host
 
 The Bluetooth LE host consists of the following layers:
 
@@ -18,7 +18,7 @@ The Bluetooth LE host consists of the following layers:
 * **Generic Attribute Profile (GATT)**: defines the necessary sub-procedures for using the ATT layer.
 * **Generic Access Profile (GAP)**: interfaces directly with the application to handle device discovery and connection-related services.
 
-### Controller
+## Controller
 
 The Bluetooth LE controller is comprised of the following layers:
 

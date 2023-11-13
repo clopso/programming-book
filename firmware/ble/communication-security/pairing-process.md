@@ -19,7 +19,7 @@ During bonding, they can also exchange and store identity keys so they can **rec
 
 **Bluetooth LE defines 3 phases in the encryption process.**
 
-### Phase 1: Initiate Pairing
+## Phase 1: Initiate Pairing
 
 To initiate the pairing and, in some cases, the bonding process, the central needs to send a **Pairing Request**, and the peripheral responds with a Pairing Response.
 
@@ -39,7 +39,7 @@ In addition, they exchange what **security features** they support, whether or n
 Only the central can send a Pairing Request. The peripheral, however, can send a Security Request which can trigger a Pairing Request from the central, but it’s not a common practice.
 {% endhint %}
 
-### Phase 2: Perform pairing
+## Phase 2: Perform pairing
 
 In phase 2, the keys used to **encrypt the connection** are generated. The pairing method used here depends on the information exchanged in phase 1.
 
@@ -55,7 +55,7 @@ LE Secure Connections supports these **three pairing methods** but also a fourth
 
 The security of the pairing process depends on **which pairing method** is used in this phase.
 
-#### Pairing Methods
+### Pairing Methods
 
 * **Just Works**: Both peers generate the STK based on information exchanged in plain text, and the user is just asked to accept the connection. This method is unauthenticated.
 * **Passkey Entry**: 6-digit number is displayed on one device, and needs to be typed in on the other device. The I/O capabilities of the devices determined which one displays the number and which one inputs it.
@@ -76,7 +76,7 @@ Depending on the OOB and MITM flags, the I/O capabilities of the peers might be 
 
 The key generated at this phase will be used to **encrypt the link** after phase 2. If you are only doing pairing, not bonding, then only these 2 phases will be performed and the peers will skip phase 3.
 
-### Phase 3: Key Distribution
+## Phase 3: Key Distribution
 
 In this phase, the Long Term Key (LTK) is used to **distribute** the rest of the keys.
 

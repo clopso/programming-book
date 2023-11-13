@@ -22,7 +22,7 @@ The security of the OOB channel used during the exchange also **determines the p
 
 Legacy pairing is **not recommended** by the Bluetooth SIG, but if you must use it, use OOB pairing. Out-of-band authentication is the sole method that can be considered secure when pairing with legacy pairing.
 
-### LE Secure Connections
+## LE Secure Connections
 
 For this reason, LE Secure Connections was **introduced in Bluetooth v4.2**. Instead of using a TK and STK, LE Secure Connections uses Elliptic-Curve Diffie-Hellman (ECDH) cryptography to generate a public-private key pair.
 

@@ -6,7 +6,7 @@ description: How data is exposed between a client and a server.
 
 One of the main functions of GATT is the hierarchal structuring of attributes stored in a GATT server into **standardized entities** (services and characteristics) providing seamless interoperability between different Bluetooth LE devices.
 
-### Attributes
+## Attributes
 
 The ATT layer defines how data is **stored and accessed** in a server’s database. The data is stored in the form of data structures called Attributes.
 
@@ -27,20 +27,20 @@ An attribute consists of **4 blocks** of data:
   * The actual user data that is stored in the attribute. This field accepts any data type.
   * It can also hold information about another attribute.
 
-#### Universally Unique ID (UUID)
+### Universally Unique ID (UUID)
 
 It is a unique number used to identify attributes and tells us about their significance. UUIDs have **two types**.
 
 * SIG-defined 16-bit UUID.
 * 128-bit UUID, sometimes referred to as a vendor-specific UUID.
 
-### Services
+## Services
 
 As shown in the below figure, attributes are the main building blocks for services. A service definition (commonly referred to as a service) is comprised of **multiple attributes arranged** in a GATT-specified format which facilitates standardized data exchange between Bluetooth LE devices.
 
 <figure><img src="../../../.gitbook/assets/blefund_less1_example_profile_2-1.png" alt=""><figcaption><p>Attributes forming a service with two characteristics</p></figcaption></figure>
 
-#### Service Declaration Attribute
+### Service Declaration Attribute
 
 Service definitions **always** start with a service declaration attribute. This attribute holds metadata about the service, it also indicates the beginning of a service in the sequence of services stored on a GATT server.
 
@@ -52,7 +52,7 @@ The **Permissions** field here indicates “read-only” and no authentication i
 
 Lastly, the **Value** field holds the UUID of the service being declared.
 
-### Characteristics
+## Characteristics
 
 Subsequently, a service can have zero or more characteristic definitions. A characteristic is comprised of at least two attributes and optionally more.
 
@@ -68,7 +68,7 @@ Optionally, a characteristic can also have one or more **characteristic descript
 * **Characteristic value attribute**: Holds the actual user data.
 * **Characteristic descriptor attribute** (optional): Holds more metadata about the characteristic.
 
-#### Characteristic Declaration Attribute
+### Characteristic Declaration Attribute
 
 A characteristic definition starts with a **characteristic declaration** attribute, to indicate the beginning of a characteristic in the sequence of characteristics in a service definition.
 
@@ -84,7 +84,7 @@ The **Value** field holds important information about the characteristic being d
 * **Characteristic value handle**: The handle (address) of the attribute that contains the user data (value).
 * **Characteristic UUID**: The UUID of the characteristic being declared.
 
-#### Characteristic Value Attribute
+### Characteristic Value Attribute
 
 After the attribute declaring the characteristic comes the **characteristic value** attribute. This is where the actual user data is stored.
 
@@ -94,7 +94,7 @@ Naturally, its **Value** field is where the actual user data is stored. The **Pe
 
 <figure><img src="../../../.gitbook/assets/blefund_less4_characteristic_value-1.png" alt=""><figcaption><p>Characteristic value attribute</p></figcaption></figure>
 
-#### Characteristic Descriptors
+### Characteristic Descriptors
 
 The characteristic descriptor attributes are **optional**.
 
@@ -106,7 +106,7 @@ There are several kinds of descriptors, but they are generally divided into **tw
 
 Descriptors also allow the client to set permissions for **certain server-initiated** GATT operations.
 
-#### Client Characteristic Configuration Descriptor (CCCD)
+### Client Characteristic Configuration Descriptor (CCCD)
 
 The Client characteristic configuration descriptor (CCCD) is a specific type of **characteristic descriptor** that is necessary when the characteristic supports server-initiated operations (Notify and Indicate).
 

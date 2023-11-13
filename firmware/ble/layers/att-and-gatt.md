@@ -8,7 +8,7 @@ After establishing a connection, there is a need for **bidirectional data exchan
 
 The Attribute protocol (ATT) layer, and the Generic Attribute protocol (GATT) layer right above it, define how data is **represented and exchanged** between Bluetooth LE devices.
 
-### The Attribute Protocol
+## The Attribute Protocol
 
 The ATT layer is the basis on which data is transmitted, received, and handled in the **connection phase** of Bluetooth LE devices. It is based on a client-server architecture.
 
@@ -23,11 +23,11 @@ The ATT layer defines a data structure called the **attribute**, which is used b
 
 * **Attribute**: A standardized data representation format defined by the ATT protocol
 
-### The Generic Attribute Profile
+## The Generic Attribute Profile
 
 The Generic Attribute Profile (GATT) layer sits **directly** on top of the ATT layer and builds on it by hierarchically classifying attributes into profiles, services, and characteristics.
 
-#### Profiles, services, and characteristics
+### Profiles, services, and characteristics
 
 Two attributes together form what’s called a _**characteristic**_. All characteristics are enclosed in what’s called a _**service**_. Services usually contain multiple characteristics.
 

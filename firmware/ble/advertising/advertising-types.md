@@ -12,7 +12,7 @@ The type of advertisement being used **is set in** the advertisement packet.
 
 There are **four main** advertisement types to cover in legacy advertisements, as well as a fifth one that is used in scan responses but will not be covered here.
 
-### Scannable and Connectable
+## Scannable and Connectable
 
 This is the **most common** type of advertising.
 
@@ -20,7 +20,7 @@ If a peripheral uses this type of advertising, it means that it is **both** scan
 
 This **means** that the peripheral is advertising its presence and allows the central to send a scan request and will respond with a scan response (scannable) which is followed by establishing a connection (connectable).
 
-### Directed Connectable
+## Directed Connectable
 
 This type of advertisement is used for directed advertisement where the advertiser **does not** accept scan requests.
 
@@ -28,11 +28,11 @@ It's directed, connectable but non-scannable. This can be used in cases where th
 
 A good example of this scenario is a Bluetooth mouse that has lost the connection with the PC and just wants to reconnect again. In this case, there is no need to accept scan requests and it is **faster** to send a directed advertisement packet to shorten the connection process.
 
-### Non-connectable and Scannable
+## Non-connectable and Scannable
 
 An advertiser using this type of advertisement will **only accept** scan requests, but will not allow establishing a connection with it (non-connectable).
 
-### Non-connectable and Non-scannable
+## Non-connectable and Non-scannable
 
 This type of advertisement **does not** accept scan requests nor does it accept establishing connections.
 

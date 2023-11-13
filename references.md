@@ -4,8 +4,6 @@ description: All references used in this book
 
 # 📖 References
 
-
-
 <details>
 
 <summary>Bit Manipulation</summary>
@@ -21,6 +19,18 @@ description: All references used in this book
 <summary>Bluetooth LE</summary>
 
 [DevAcademy NordicSemi](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
+
+[Developer NordicSemi](https://developer.nordicsemi.com/nRF\_Connect\_SDK/doc/latest/zephyr/connectivity/bluetooth/index.html)
+
+[Docs Zephyr Project](https://docs.zephyrproject.org/latest/connectivity/bluetooth/index.html)
+
+</details>
+
+<details>
+
+<summary>RTOS</summary>
+
+[What Is a Real-Time Operating System (RTOS)?](https://www.windriver.com/solutions/learning/rtos)
 
 </details>
 

@@ -4,7 +4,7 @@ description: Establishing a connection
 
 # Connection Process
 
-### Connecting
+## Connecting
 
 Establishing a connection requires **two devices**, one acting as a peripheral that is currently advertising, and one acting as a central that is currently scanning.
 
@@ -28,7 +28,7 @@ Later, at any point in time, it may choose to **disconnect** from the central if
 Using an accept list filter, formerly known as whitelisting, is a way the peripheral can limit which devices are allowed to send it a connection request.
 {% endhint %}
 
-### During the connection
+## During the connection
 
 After the peripheral **successfully** receives the connection request packet, the two devices are in a connection.
 
@@ -59,20 +59,20 @@ The two devices can send many packets every connection interval if they need to 
 
 Even if there is no useful data to send, the peers need to send **empty packets** to sync their clocks. If you want to send more data than there is time for in one connection interval, it will be split over several connection intervals.
 
-### Disconnecting
+## Disconnecting
 
 When two devices are connected, they will remain connected **forever** if nothing happens. There are two ways that a connection can be terminated, meaning the devices disconnect:
 
 * Disconnected by **application**
 * Disconnected by **supervision timeout**
 
-#### **Disconnected by application**
+### **Disconnected by application**
 
 If either of the devices want to, they can send a **termination packet** that will disconnect the device.
 
 This can, for example, be done because a device **no longer wishes** to be connected to the other device, but it will also happen if there is something wrong with the connection.
 
-#### Disconnected by supervision timeout
+### Disconnected by supervision timeout
 
 If a device **stops responding** to packets, the connection is terminated.
 

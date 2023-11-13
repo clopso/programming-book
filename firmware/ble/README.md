@@ -17,11 +17,11 @@ layout:
 
 # BLE
 
-### What is Bluetooth Low Energy?
+## What is Bluetooth Low Energy?
 
 Bluetooth Low Energy (BLE) is a wireless communication technology for **short-range communication**. It is similar to Wi-Fi in the sense that it allows devices to communicate with each other, but it is meant for situations where battery life is preferred over high data transfer speeds.
 
-### Bluetooth LE features
+## Bluetooth LE features
 
 Bluetooth LE, as its name implies, focuses on achieving low energy consumption by sacrificing data rate.
 
@@ -44,7 +44,7 @@ The range will always depend on **several factors** related to the software and 
 
 A key advantage of Bluetooth Low Energy is its **low cost** when compared to other low-power personal area networks, making it attractive for applications requiring mass deployments.
 
-### Bluetooth LE protocol stack
+## Bluetooth LE protocol stack
 
 <figure><img src="../../.gitbook/assets/BLE_STACK.png" alt=""><figcaption><p>The image depicts the protocol stack architecture, showing which layers make up the Bluetooth LE host and which make up the Bluetooth LE controller.</p></figcaption></figure>
 

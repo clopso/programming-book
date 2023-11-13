@@ -4,7 +4,7 @@ description: How secure is Bluetooth LE
 
 # Security Models
 
-### Security concerns
+## Security concerns
 
 There isn’t a simple answer to the question “**How secure is Bluetooth LE?**” It depends heavily on how the pairing process is executed and what I/O capabilities the peer devices have.
 
@@ -24,7 +24,7 @@ The challenge here is how the peer devices generate and/or exchange the **keys t
 
 In an active eavesdropping (or man-in-the-middle) attack the attacker **impersonates** two legitimate devices to fool them into connecting to it. To prevent this, we need to be sure that the device we are communicating with is in fact the device we want to talk to and not an unauthenticated device.
 
-### Security Levels&#x20;
+## Security Levels&#x20;
 
 Bluetooth LE defines 4 security levels in security mode 1:
 
@@ -53,7 +53,7 @@ This way, we can configure our attribute table so that the data **can only be ex
 Bluetooth LE has a total of 3 security modes. Security mode 2 uses data signing for security and is rarely used. Security mode 3 pertains to isochronous broadcast which is used with Bluetooth LE Audio and is fairly new. This course only focuses on security mode 1.
 {% endhint %}
 
-### Filter Accept List
+## Filter Accept List
 
 Filter Accept List, formerly known as **Whitelisting**, is a way of limiting access to a list of devices in both advertising and scanning.
 
