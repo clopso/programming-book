@@ -28,9 +28,31 @@ description: All references used in this book
 
 <details>
 
+<summary>NFC</summary>
+
+[Nomtek](https://www.nomtek.com/blog/what-are-nfc-tags)
+
+[Kevin](https://www.kevin.eu/blog/nfc-payments/)
+
+</details>
+
+<details>
+
 <summary>RTOS</summary>
 
 [What Is a Real-Time Operating System (RTOS)?](https://www.windriver.com/solutions/learning/rtos)
+
+[FreeRTOS Wikipedia](https://en.wikipedia.org/wiki/FreeRTOS)
+
+[Zephyr Wikipedia](https://en.wikipedia.org/wiki/Zephyr\_\(operating\_system\))
+
+</details>
+
+<details>
+
+<summary>Peripherals</summary>
+
+[Academy NordicSemi](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals)
 
 </details>
 

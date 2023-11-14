@@ -1,5 +1,5 @@
 ---
-description: Real-time operating system (RTOS)
+description: Real-time operating system
 layout:
   title:
     visible: true

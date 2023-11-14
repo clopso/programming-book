@@ -1,7 +1,5 @@
 ---
-description: >-
-  Bluetooth Low Energy  is a wireless personal area network technology designed
-  and marketed by the Bluetooth Special Interest Group
+description: Bluetooth Low Energy
 layout:
   title:
     visible: true

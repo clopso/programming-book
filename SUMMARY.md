@@ -34,7 +34,9 @@
 * [RTOS](firmware/rtos/README.md)
   * [FreeRTOS](firmware/rtos/freertos.md)
   * [Zephyr](firmware/rtos/zephyr.md)
-* [Peripherals](firmware/peripherals.md)
+* [Peripherals](firmware/peripherals/README.md)
+  * [UART](firmware/peripherals/uart.md)
+  * [I2C](firmware/peripherals/i2c.md)
 
 ## 🔎 Search
 
