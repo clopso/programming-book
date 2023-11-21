@@ -6,6 +6,9 @@
 
 * [Bit Manipulation](coding/bitwise.md)
 * [Loops](coding/loops.md)
+* [JavaScript](coding/javascript/README.md)
+  * [Maps](coding/javascript/maps.md)
+  * [Array](coding/javascript/array.md)
 
 ## 👾 Firmware
 

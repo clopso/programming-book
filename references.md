@@ -16,6 +16,16 @@ description: All references used in this book
 
 <details>
 
+<summary>JavaScript</summary>
+
+[JavaScript Maps](https://www.w3schools.com/js/js\_object\_maps.asp)
+
+[JavaScript Array](https://www.w3schools.com/jsref/jsref\_obj\_array.asp)
+
+</details>
+
+<details>
+
 <summary>Bluetooth LE</summary>
 
 [DevAcademy NordicSemi](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)

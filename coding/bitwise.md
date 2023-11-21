@@ -106,3 +106,16 @@ num ^= (1 << n-1)
 # flip a boolean value
 num ^= 1
 ```
+
+### Substitute for Math.trunc() in JS
+
+<pre class="language-javascript"><code class="lang-javascript">~(5.5)   // => -6
+~(6)     // => -7
+~(-5.5)  // => 4
+~(-6)    // => 5
+
+<strong>~~(5.5)   // => 5     (same as Math.trunc(5.5) and Math.floor(5.5))
+</strong>~~(6)     // => 6
+~~(-5.5)  // => -5    (same as Math.trunc(-5.5) but NOT the same as Math.floor(-5.5), which would give -6 )
+~~(-6)    // => -6
+</code></pre>
